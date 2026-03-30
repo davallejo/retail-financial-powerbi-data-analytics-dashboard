@@ -7,7 +7,7 @@
 ![Azure Maps](https://img.shields.io/badge/Azure%20Maps-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
-Solución integral de Business Intelligence para el seguimiento y análisis financiero de una red de tiendas minoristas en Ecuador. Transforma datos transaccionales brutos en información estratégica para la toma de decisiones, permitiendo evaluar el rendimiento por unidad de negocio, optimizar comisiones y mitigar riesgos operativos.
+Solución integral de Business Intelligence para el seguimiento y análisis financiero de una red de tiendas comerciales en Ecuador. Transforma datos transaccionales brutos en información estratégica para la toma de decisiones, permitiendo evaluar el rendimiento por unidad de negocio, optimizar comisiones y mitigar riesgos operativos.
 
 **Datos transaccionales → ETL → Modelo estrella → DAX → Dashboard geoespacial interactivo**
 
