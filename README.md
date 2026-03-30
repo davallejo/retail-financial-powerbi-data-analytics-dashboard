@@ -129,6 +129,7 @@ Tres fuentes de datos (Tiendas, Ventas, Productos)
      │  Cantidad                  │
      └────────────────────────────┘
 ```
+<img width="930" height="434" alt="image" src="https://github.com/user-attachments/assets/4ad2d522-c235-416a-bac6-c7b673a2c57c" />
 
 ### 🧮 Fase 3 — Medidas DAX
 
@@ -165,7 +166,7 @@ Comisión = [Facturación Total] * 0.05
 
 ## 🗄️ Modelo de Datos
 
-### Tabla de Hechos: `Ventas`
+### Tabla de Hechos: `RegistroVentas`
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
@@ -396,14 +397,13 @@ El cálculo automático del 5% es el punto de partida. Con el dashboard operativ
 ```
 dashboard-ventas-sucursales/
 │
-├── 📊 Dashboard_Ventas_de_Sucursales.pbix
-│                              ← Archivo principal Power BI
-│                                (modelo + ETL + DAX + visuales)
+├── 📊 Dashboard_Ventas_de_Sucursales.pbix   ← Archivo principal Power BI
+│                                              (modelo + ETL + DAX + visuales)
 │
-├── 📁 data/
-│   ├── tiendas.xlsx           ← Tabla dimensional de tiendas
-│   ├── ventas.xlsx            ← Tabla de hechos transaccional
-│   └── productos.xlsx         ← Tabla dimensional de productos
+├── 📁 data/Ventas_Ecuador_2024.xlsx
+│   ├── Tiendas           ← Tabla dimensional de tiendas
+│   ├── RegistroVentas    ← Tabla de hechos transaccional
+│   └── Productos         ← Tabla dimensional de productos
 │
 └── 📄 README.md               ← Este archivo
 ```
